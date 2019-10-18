@@ -130,7 +130,8 @@ h1, h2, h3, h4, h5 {
 	margin-top: 6px;
 	padding: 8px 44px;
 	font-size: 17px;
-	border: 1px double whitesmoke;
+	border-radius: 20px; 
+	border: 2px double whitesmoke;
 	color: whitesmoke;
 	cursor: pointer;
   }
@@ -317,7 +318,9 @@ h1, h2, h3, h4, h5 {
   @media only screen and (max-width: 600px) {
 	.main-vision-text {
 	  display: flex;
-	  flex-direction: column;}
+	  flex-direction: column;
+	  align-items: center;
+	}
   }
   
   .bottom-line {
